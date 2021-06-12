@@ -10,13 +10,14 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    background-color: white;
     justify-content: space-around;
 }
 .navbar_brand {
-    width: 100%;
+    width: 100px;
 }
 .navbar_logo{
-    width: 100%;
+    width: 100%; 
 }
 .nav_item {
     background-image: linear-gradient(
@@ -25,13 +26,27 @@ body {
     #dd2476 51%,
     #ff512f 100%
   );
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
   padding: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.nav_item:hover{
+     border: 2px solid rgb(170, 130, 238);
 }
 @media (min-width:768px){
     .navbar{
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 10px 30px;
+    }
+}
+@media (min-width:1020px) {
+    .navbar_brand{
+        width: 150px;
+    }
+    .nav-item{
+        padding: 20px;
+        font-size: 20px;
     }
 }
