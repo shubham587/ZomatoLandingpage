@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebf2ff;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_brand {
+    width: 100%;
+}
+.navbar_logo{
+    width: 100%;
+}
+.nav_item {
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+  );
+  background-color: #ffffff;
+  border: none;
+  padding: 20px;
+}
+@media (min-width:768px){
+    .navbar{
+        justify-content: space-around;
+        padding: 10px 30px;
+    }
+}
