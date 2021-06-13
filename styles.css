@@ -80,6 +80,36 @@ body {
     margin-top: 20px;
 
 }
+.food_card_image_container {
+    width: 100%;
+}
+.food_image {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.food_card {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.food_card_desc {
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 15px;
+}
+.explore_menu_lists{
+    margin-top: 40px;
+    font-size: 17px;
+    text-align: center;
+
+}
+.explore_menu_text{
+    font-size: 30px;
+    text-align: center;
+}
+.explore_menu_container{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 @media (min-width:768px){  
     .navbar{
         justify-content: space-between;
@@ -90,7 +120,47 @@ body {
         flex-direction: row-reverse;
         align-items: center;
     }
-   
+    .explore_menu_lists{
+        display: flex;
+        gap: 15px;
+        padding: 30px;
+    }
+    .explore_menu_text {
+        margin-top: 60px;
+    }
+    #pizza_card {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+    .explore_menu_view_more {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .explore_menu_container {
+        position: relative;
+        margin-top: 60px;
+        
+    }
+    .explore_menu_gradient_bg {
+        position: absolute;
+        top: 0;
+        left: 0;  
+
+        width: 100%;
+        height: 100%;
+        
+        margin-top: 27px;
+        z-index: -2;
+        transform: skewY(-7deg);
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+    }
+    
 }
 @media (min-width:1020px) {   
     .navbar_brand{
@@ -115,9 +185,37 @@ body {
         margin-top: 120px;
         align-items: center;
     }
-   
-       
-    
+    .explore_menu_lists{
+        display: flex;
+        gap: 15px;
+    }
+    .explore_menu_text {
+        font-size: 50px;
+    }
+    .explore_menu_container {
+        margin-top: 120px;
+    }
+    .explore_menu_container {
+        position: relative;
+        
+    }
+    .explore_menu_gradient_bg {
+        position: absolute;
+        top: 0;
+        left: 0;  
+
+        width: 100%;
+        height: 100%;
+        
+        z-index: -2;
+        transform: skewY(-7deg);
+        background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+    } 
 }
 @media (min-width :1400px) {
     .container {
