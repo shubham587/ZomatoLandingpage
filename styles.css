@@ -376,6 +376,9 @@ body {
     .update_setup {
         margin-top: 20px;
     }
+    .footer_body {
+        margin-left: 280px;
+    }
     
 @media (min-width :1400px) {
     .container {
