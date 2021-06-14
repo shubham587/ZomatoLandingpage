@@ -276,9 +276,9 @@ body {
         justify-content: center;
         
     }
-    .footer_image [
+    .footer_image {
         width: 100%;
-    ]
+    }
     .footer_items {
     
         width: 100%;
